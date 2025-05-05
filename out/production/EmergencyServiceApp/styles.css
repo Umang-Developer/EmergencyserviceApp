@@ -1,0 +1,51 @@
+/* styles.css */
+
+.root {
+    -fx-background-color: #f9f9f9;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #333;
+}
+
+.text-field, .text-area, .combo-box {
+    -fx-font-size: 13px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 4;
+    -fx-padding: 5;
+}
+
+.header {
+    -fx-font-size: 20px;
+    -fx-text-fill: #d32f2f;
+    -fx-font-weight: bold;
+}
+
+.section-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.add-button {
+    -fx-background-color: #388e3c;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 6 12;
+    -fx-border-radius: 4;
+}
+
+.remove-button {
+    -fx-background-color: #d32f2f;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 6 12;
+    -fx-border-radius: 4;
+}
+
+.list-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ccc;
+}
